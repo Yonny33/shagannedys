@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACTO</title>
+
+    <link rel="icon" href="img/SHAGANNEDYS.ico" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/servicio.css" />
+    <link rel="stylesheet" href="css/producto.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img height="60" src="img/logotipo.svg" alt="shagannedys" />
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="index.html">inicio</a></li>
+          <li><a href="productos.html" target="_blank">productos</a></li>
+          <li><a href="servicio.html" target="_blank">servicios</a></li>
+          <li><a href="evento.html" target="_blank">eventos</a></li>
+          <li><a href="contacto.html" target="_blank">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-details">
+          <div class="contact-details-group">
+            <p class="contact-label">Dirección:</p>
+            <p class="contact-text">Singapur, Machiques, Venezuela</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">Email:</p>
+            <p class="contact-text">shagannedys@gmail.com</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-text">
+              Deje su mensaje y con gusto le responderé
+            </p>
+          </div>
+        </div>
+        <form class="contact-form" name="contact" netlify>
+          <div class="contact-form-group">
+            <label for="name">Nombre</label>
+            <input required type="text" name="name" id="name" />
+          </div>
+          <div class="contact-form-group">
+            <label for="email">Email</label>
+            <input required type="email" name="email" id="email" />
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea required name="message" id="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <nav class="social">
+          <ul class="social-list">
+            <li>
+              <a href="https://www.facebook.com/shagannedys">
+                <img src="img/social/facebook.svg" alt="facebook profile" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/shagannedys/?hl=es-la" class="social-link"
+                ><img src="img/social/instagram.svg" alt="instagram profile"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@shagannedys" class="social-link">
+                <img src="img/social/youtube.svg" alt="youtube profile" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@shagannedys?lang=es"
+                class="social-link"
+              >
+                <img src="img/social/tik tok.svg" alt="tiktok profile" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.servicioo-title {
+  width: 80%;
+  text-align: center;
+margin: 0 auto;
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 50px;
+  color: var(--primary-color);
+  font-family: "Noto Sans", sans-serif;
+}

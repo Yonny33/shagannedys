@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CONTACTO</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
@@ -30,7 +30,7 @@
   <body>
     <header class="topheader">
       <nav class="topnav">
-        <a href="#" class="logo">
+        <a href="index.html" class="logo">
           <img height="60" src="img/logotipo.svg" alt="shagannedys" />
         </a>
         <button class="open-menu" aria-label="Abrir menú">
@@ -41,7 +41,16 @@
             <img src="img/close-icon.svg" alt="cerrar menú" />
           </button>
           <li><a href="index.html">inicio</a></li>
-          <li><a href="productos.html" target="_blank">productos</a></li>
+          <li>
+            <a href="productos.html" target="_blank">productos</a>
+            <ul class="ul-desplegable">
+              <li><a href="index.html">inicio</a></li>
+              <li><a href="productos.html">productos</a></li>
+              <li><a href="servicio.html">servicios</a></li>
+              <li><a href="evento.html">eventos</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </li>
           <li><a href="servicio.html" target="_blank">servicios</a></li>
           <li><a href="evento.html" target="_blank">eventos</a></li>
           <li><a href="contacto.html" target="_blank">Contacto</a></li>
@@ -90,12 +99,17 @@
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/shagannedys/?hl=es-la" class="social-link"
+              <a
+                href="https://www.instagram.com/shagannedys/?hl=es-la"
+                class="social-link"
                 ><img src="img/social/instagram.svg" alt="instagram profile"
               /></a>
             </li>
             <li>
-              <a href="https://www.youtube.com/@shagannedys" class="social-link">
+              <a
+                href="https://www.youtube.com/@shagannedys"
+                class="social-link"
+              >
                 <img src="img/social/youtube.svg" alt="youtube profile" />
               </a>
             </li>
@@ -111,6 +125,5 @@
         </nav>
       </section>
     </div>
-
   </body>
 </html>
